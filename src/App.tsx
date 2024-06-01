@@ -21,32 +21,31 @@ const reviews = [
 
 const App = () => {
   return (
-      <div className="container flex flex-col items-center">
-        <Banner />
+    <>
+      <Banner />
 
-        <section className="relative my-10 w-full px-6">
-          <h2 className="text-3xl font-bold text-center mb-8">
-            Massage Therapies
-          </h2>
-          <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-            {therapies.map((therapy, index) => (
-              <TherapyCard key={index} therapy={therapy} />
-            ))}
-          </div>
-        </section>
+      <section className="relative container w-full p-6">
+        <h2 className="text-3xl font-bold text-center mb-8">
+          Massage Therapies
+        </h2>
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+          {therapies.map((therapy, index) => (
+            <TherapyCard key={index} therapy={therapy} />
+          ))}
+        </div>
+      </section>
 
-        <section className="relative my-10 w-full px-6">
-          <h2 className="text-3xl font-bold text-center mb-8">Reviews</h2>
-          <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-            {reviews.map((review, index) => (
-              <ReviewCard key={index} review={review} />
-            ))}
-          </div>
-        </section>
+      <section className="relative container w-full p-6">
+        <h2 className="text-3xl font-bold text-center mb-8">Reviews</h2>
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+          {reviews.map((review, index) => (
+            <ReviewCard key={index} review={review} />
+          ))}
+        </div>
+      </section>
 
-        <Footer />
-      </div>
-  
+      <Footer />
+    </>
   );
 };
 
