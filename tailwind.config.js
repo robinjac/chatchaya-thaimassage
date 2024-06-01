@@ -1,3 +1,6 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
@@ -10,6 +13,8 @@ export default {
     extend: {
       animation: {
         aurora: "aurora 60s linear infinite",
+        scroll:
+          "scroll var(--animation-duration, 80s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
         aurora: {
@@ -18,6 +23,11 @@ export default {
           },
           to: {
             backgroundPosition: "350% 50%, 350% 50%",
+          },
+        },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
           },
         },
       },
