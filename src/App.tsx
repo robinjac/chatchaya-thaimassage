@@ -4,6 +4,7 @@ import Banner from "./components/Banner.tsx";
 import TherapyCard from "./components/TherapyCard.tsx";
 import ReviewCard from "./components/ReviewCard.tsx";
 import Footer from "./components/Footer.tsx";
+import { AuroraBackground } from "./components/Background.tsx";
 
 const therapies = [
   { name: "Swedish Massage", description: "Relaxing and rejuvenating." },
@@ -21,7 +22,7 @@ const reviews = [
 
 const App = () => {
   return (
-    <>
+    <AuroraBackground>
       <Banner />
 
       <section className="relative container w-full p-6">
@@ -45,7 +46,7 @@ const App = () => {
       </section>
 
       <Footer />
-    </>
+    </AuroraBackground>
   );
 };
 
