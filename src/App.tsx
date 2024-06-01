@@ -2,7 +2,7 @@
 import React from "react";
 import Banner from "./components/Banner.tsx";
 import TherapyCard from "./components/TherapyCard.tsx";
-import ReviewCard from "./components/ReviewCard.tsx";
+// import ReviewCard from "./components/ReviewCard.tsx";
 import Footer from "./components/Footer.tsx";
 import { AuroraBackground } from "./components/Background.tsx";
 import { InfiniteMovingCards } from "./components/Carousel.tsx";
@@ -13,25 +13,6 @@ const therapies = [
   { name: "Hot Stone Massage", description: "Soothing and calming." },
   { name: "Aromatherapy Massage", description: "Invigorating and refreshing." },
 ];
-
-/* const reviews = [
-  { text: "Amazing service!", author: "John Doe" },
-  { text: "Best massage ever!", author: "Jane Smith" },
-  { text: "Very relaxing experience.", author: "Alice Johnson" },
-  { text: "Highly recommend!", author: "Bob Brown" },
-]; */
-
-export function InfiniteMovingCardsDemo() {
-  return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-    </div>
-  );
-}
 
 const testimonials = [
   {
@@ -63,7 +44,6 @@ const testimonials = [
     name: "Herman Melville",
     title: "Moby-Dick",
   },
-  
 ];
 
 const App = () => {
@@ -71,19 +51,18 @@ const App = () => {
     <AuroraBackground>
       <Banner />
 
-      <section className="relative container w-full p-6">
-        <h2 className="text-3xl font-bold text-center mb-8">
-          Massage Therapies
-        </h2>
-        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="relative container flex flex-col items-center w-full space-y-8 p-6">
+        <h2 className="text-3xl font-bold">Reviews</h2>
+
+        <div className="grid w-fit gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {therapies.map((therapy, index) => (
             <TherapyCard key={index} therapy={therapy} />
           ))}
         </div>
       </section>
 
-      <section className="relative container w-full p-6">
-        <h2 className="text-3xl font-bold text-center mb-8">Reviews</h2>
+      <section className="relative container flex flex-col items-center  w-full space-y-8 p-6">
+        <h2 className="text-3xl font-bold text-center">Reviews</h2>
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
