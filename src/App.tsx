@@ -23,7 +23,7 @@ const App = () => {
             <h2 className="text-3xl font-bold">{category}</h2>
             <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
               {services.map((therapy) => (
-                <TherapyCard key={index} {...therapy} />
+                <TherapyCard key={therapy.name + index} {...therapy} />
               ))}
             </div>
           </section>
