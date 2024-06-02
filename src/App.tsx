@@ -30,11 +30,9 @@ const App = () => {
         ))}
       </div>
       <section className="relative flex flex-col items-center w-screen space-y-8 p-6">
-        <h2 className="text-3xl font-bold text-center">Reviews</h2>
+        <h2 className="text-3xl font-bold text-center">Rekommendationer</h2>
         <InfiniteMovingCards items={reviews} direction="right" speed="slow" />
       </section>
-
-      <Footer />
     </>
   );
 };
