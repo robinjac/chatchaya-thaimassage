@@ -1,7 +1,7 @@
 // src/components/TherapyCard.jsx
 import React from "react";
 
-const root = "https://www.bokadirekt.se/";
+const root = "https://www.bokadirekt.se";
 
 interface Therapy {
   name: string;
