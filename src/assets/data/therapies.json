@@ -29,30 +29,7 @@
       ]
     },
     {
-      "category": "Hot Stone Massage",
-      "services": [
-        {
-          "name": "Oljemassage med varm sten 90 min",
-          "duration": "90 minuter",
-          "price": "1 300 kr",
-          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-90-min-3093428"
-        },
-        {
-          "name": "Oljemassage med varm sten 60 min",
-          "duration": "60 minuter",
-          "price": "900 kr",
-          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-60-min-3093430"
-        },
-        {
-          "name": "Oljemassage med varm sten 120 min",
-          "duration": "120 minuter",
-          "price": "1 800 kr",
-          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-120-min-3093829"
-        }
-      ]
-    },
-    {
-      "category": "Thai massage",
+      "category": "Thaimassage",
       "services": [
         {
           "name": "Hård thaimassage 30 min",
@@ -71,6 +48,29 @@
           "duration": "90 minuter",
           "price": "900 kr",
           "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/hard-thaimassage-90-min-3093458"
+        }
+      ]
+    },
+    {
+      "category": "Hot stone massage",
+      "services": [
+        {
+          "name": "Oljemassage med varm sten 90 min",
+          "duration": "90 minuter",
+          "price": "1 300 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-90-min-3093428"
+        },
+        {
+          "name": "Oljemassage med varm sten 60 min",
+          "duration": "60 minuter",
+          "price": "900 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-60-min-3093430"
+        },
+        {
+          "name": "Oljemassage med varm sten 120 min",
+          "duration": "120 minuter",
+          "price": "1 800 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-120-min-3093829"
         }
       ]
     }
