@@ -120,7 +120,7 @@ export const InfiniteMovingCards = ({
                 {Array(item.score)
                   .fill(1)
                   .map(() => (
-                    <Star className="text-slate-500 w-6" />
+                    <Star className="text-amber-400 w-6" />
                   ))}
               </div>
             </div>

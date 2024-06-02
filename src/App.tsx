@@ -11,9 +11,8 @@ const App = () => {
   return (
     <>
       <AuroraBackground>
-        <div className="absolute bg-[url(/src/assets/images/leaf.png)] bg-right top-0 right-0 w-full h-1/3 bg-no-repeat bg-contain"></div>
         <Banner />
-        <div className="absolute bg-[url(/src/assets/images/flower.png)] bg-left bottom-0 w-full h-1/2 bg-no-repeat bg-contain"></div>
+        <InfiniteMovingCards items={reviews} direction="right" speed="slow" />
       </AuroraBackground>
       <div className="relative w-screen min-h-screen pt-20">
         {therapies.map(({ category, services }, index) => (
@@ -30,10 +29,10 @@ const App = () => {
           </section>
         ))}
       </div>
-      <section className="relative flex flex-col items-center w-screen space-y-8 p-6">
+    {/*   <section className="relative flex flex-col items-center w-screen space-y-8 p-6">
         <h2 className="text-3xl font-bold text-center">Rekommendationer</h2>
         <InfiniteMovingCards items={reviews} direction="right" speed="slow" />
-      </section>
+      </section> */}
     </>
   );
 };
