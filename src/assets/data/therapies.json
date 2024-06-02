@@ -1,0 +1,78 @@
+[
+    {
+      "category": "Massage",
+      "services": [
+        {
+          "name": "Thaimassage och avslappnande oljemassage 30 min",
+          "duration": "30 minuter",
+          "price": "400 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/thaimassage-och-avslappnande-oljemassage-30-min-3093453"
+        },
+        {
+          "name": "Thaimassage och avslappnande oljemassage 60 min",
+          "duration": "60 minuter",
+          "price": "500 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/thaimassage-och-avslappnande-oljemassage-60-min-3093454"
+        },
+        {
+          "name": "Thaimassage och avslappnande oljemassage 90 min",
+          "duration": "90 minuter",
+          "price": "800 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/thaimassage-och-avslappnande-oljemassage-90-min-3093455"
+        },
+        {
+          "name": "Thaimassage och avslappnande oljemassage 120 min",
+          "duration": "120 minuter",
+          "price": "1 000 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/thaimassage-och-avslappnande-oljemassage-120-min-3093429"
+        }
+      ]
+    },
+    {
+      "category": "Hot Stone Massage",
+      "services": [
+        {
+          "name": "Oljemassage med varm sten 90 min",
+          "duration": "90 minuter",
+          "price": "1 300 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-90-min-3093428"
+        },
+        {
+          "name": "Oljemassage med varm sten 60 min",
+          "duration": "60 minuter",
+          "price": "900 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-60-min-3093430"
+        },
+        {
+          "name": "Oljemassage med varm sten 120 min",
+          "duration": "120 minuter",
+          "price": "1 800 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/oljemassage-med-varm-sten-120-min-3093829"
+        }
+      ]
+    },
+    {
+      "category": "Thai massage",
+      "services": [
+        {
+          "name": "Hård thaimassage 30 min",
+          "duration": "30 minuter",
+          "price": "500 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/hard-thaimassage-30-min-3093830"
+        },
+        {
+          "name": "Hård thaimassage 60 min",
+          "duration": "60 minuter",
+          "price": "Från 600 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/hard-thaimassage-60-min-3093457"
+        },
+        {
+          "name": "Hård thaimassage 90 min",
+          "duration": "90 minuter",
+          "price": "900 kr",
+          "link": "/boka-tjanst/chat-cha-ya-thaimassage-58430/hard-thaimassage-90-min-3093458"
+        }
+      ]
+    }
+  ]
+  
