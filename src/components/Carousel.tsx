@@ -1,6 +1,13 @@
 import { cn } from "../utils/cn";
 import React, { useEffect, useState } from "react";
 
+interface Item {
+  review: string;
+  createdAt: string;
+  authorName: string;
+  score: number;
+}
+
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
@@ -8,11 +15,7 @@ export const InfiniteMovingCards = ({
   pauseOnHover = true,
   className,
 }: {
-  items: {
-    quote: string;
-    name: string;
-    title: string;
-  }[];
+  items: Item[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
@@ -98,15 +101,15 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {item.quote}
+                {item.review}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.name}
+                    {item.authorName}
                   </span>
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
+                    {item.score}
                   </span>
                 </span>
               </div>
