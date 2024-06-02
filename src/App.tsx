@@ -6,6 +6,14 @@ import { AuroraBackground } from "./components/Background.tsx";
 import { InfiniteMovingCards } from "./components/Carousel.tsx";
 import therapies from "./assets/data/therapies.json";
 import reviews from "./assets/data/review.json";
+import bullets from "./assets/data/bullets.json";
+
+const BulletItem = (props: { bullet: string; paragraph: string }) => (
+  <>
+    <h4 className="text-2xl font-bold">{props.bullet}</h4>
+    <p>{props.paragraph}</p>
+  </>
+);
 
 const App = () => {
   return (
@@ -17,7 +25,23 @@ const App = () => {
           <InfiniteMovingCards items={reviews} direction="right" speed="slow" />
         </div>
       </AuroraBackground>
-      <div className="relative w-screen min-h-screen flex flex-col items-center  pt-20">
+      <div className="relative w-screen flex flex-col items-center">
+        <section className="relative text-[#472c02] max-w-5xl flex gap-20 justify-center w-screen space-y-8 p-6">
+          <div className="w-[400px] bg-[url(/src/assets/images/chatchaya_left_2.png)] bg-no-repeat bg-contain" />
+          <div className="flex flex-col items-start w-[500px] space-y-6">
+            <h4 className="text-3xl font-bold">Vad är Thailänsk massage?</h4>
+            <p>
+              Det är en holistisk behandlingsmetod som främjar både fysisk och
+              mental hälsa genom att integrera stretching, tryck och
+              andningsövningar.
+            </p>
+            {bullets.map((bullet) => (
+              <BulletItem {...bullet} />
+            ))}
+          </div>
+        </section>
+      </div>
+      <div className="relative w-screen flex flex-col py-20 items-center">
         {therapies.map(({ category, services }, index) => (
           <section
             key={category + index}
@@ -25,7 +49,9 @@ const App = () => {
           >
             <div className="w-[400px] bg-[url(/src/assets/images/chatchaya_left_2.png)] bg-no-repeat bg-contain" />
             <div className="flex flex-col items-center w-[300px] space-y-10">
-              <h2 className="text-4xl text-center text-[#472c02]">{category}</h2>
+              <h2 className="text-4xl text-center text-[#472c02]">
+                {category}
+              </h2>
               <div className="grid gap-4 grid-cols-1">
                 {services.map((therapy) => (
                   <TherapyCard key={therapy.name + index} {...therapy} />
