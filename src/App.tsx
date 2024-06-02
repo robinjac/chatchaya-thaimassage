@@ -17,7 +17,7 @@ const BulletItem = (props: { bullet: string; paragraph: string }) => (
 
 const App = () => {
   return (
-    <AuroraBackground className="h-fit">
+    <AuroraBackground className="bg-sky-50 h-fit">
       <div className="relative w-screen h-screen flex justify-between flex-col">
         <Banner />
         <div className="w-screen h-fit flex justify-center pb-6">
@@ -26,7 +26,7 @@ const App = () => {
       </div>
       <div className="relative w-screen flex flex-col items-center">
         <section className="relative text-[#472c02] max-w-5xl flex gap-20 justify-center w-screen space-y-8 p-6">
-          <div className="w-[400px] rounded-full shadow-inner-circle bg-[url(/src/assets/images/chatchaya_left_2.png)] bg-no-repeat bg-contain" />
+          <div className="w-[400px] hidden lg:flex rounded-full shadow-inner-circle bg-[url(/src/assets/images/chatchaya_left_2.png)] bg-no-repeat bg-contain" />
           <div className="flex flex-col items-start w-[500px] space-y-6">
             <h4 className="text-3xl font-bold">Vad är Thailänsk massage?</h4>
             <p>
@@ -40,14 +40,14 @@ const App = () => {
           </div>
         </section>
       </div>
-      <div className="relative w-screen flex flex-col gap-12 py-20 items-center">
+      <div className="relative w-screen flex flex-col gap-12 py-10 items-center">
         {therapies.map(({ category, services }, index) => (
           <section
             key={category + index}
             className="relative flex gap-20 justify-center w-screen space-y-8 p-6"
           >
-            <div className="flex flex-col items-start space-y-12">
-              <h4 className="text-3xl font-bold text-[#472c02]">{category}</h4>
+            <div className="flex flex-col items-center space-y-10">
+              <h4 className="text-3xl text-center font-bold text-[#472c02]">{category}</h4>
               <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {services.map((therapy) => (
                   <TherapyCard key={therapy.name + index} {...therapy} />

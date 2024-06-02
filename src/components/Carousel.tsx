@@ -100,16 +100,12 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] flex flex-col justify-between gap-3 max-w-full bg-gray-50 border border-gray-200 rounded-lg p-5 shadow-lg relative flex-shrink-0 px-8 py-6 md:w-[450px]"
-            style={{
-              background:
-                "linear-gradient(180deg, var(--gray-50), var(--gray-60)",
-            }}
+            className="w-[350px] bg-gray-50 flex flex-col justify-between gap-3 max-w-full bg-gray-50 border border-gray-200 rounded-lg p-5 shadow-lg relative flex-shrink-0 px-8 py-6 md:w-[450px]"
             key={idx}
           >
             <div
               aria-hidden="true"
-              className="flex-none user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
+              className="flex-none user-select-none pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
             />
             <ReviewText reviewText={item.review} />
             <div className="flex items-center w-full justify-between gap-1">
