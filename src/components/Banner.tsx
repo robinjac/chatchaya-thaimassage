@@ -1,16 +1,17 @@
 import React from "react";
 
+
 const Banner = () => {
   return (
-    <div className="relative text-[#6d4901] flex justify-center items-center flex-col w-screen h-screen max-h-[800px] pb-32">
-      <div className="lg:max-w-xl w-full h-full">
+    <div className="relative text-[#6d4901] flex justify-center items-center flex-col w-screen h-screen max-h-[700px]">
+      <div className="lg:hidden w-full h-full">
         <div className="bg-[url(/src/assets/images/bird.png)] bg-left w-full h-full bg-no-repeat bg-contain"></div>
       </div>
       <div className="bg-[url(/src/assets/images/logo2.png)] bg-center w-full h-full bg-no-repeat bg-contain"></div>
-      <h1 className="text-5xl w-full text-center pt-12 px-12">
+      <h1 className="text-5xl w-full text-center pt-4 lg:pt-12 px-12">
         Chatchaya Thaimassage
       </h1>
-      <div className="flex gap-2 pt-12">
+      <div className="flex gap-2 pt-6 lg:pt-12">
         <a
           href="https://g.co/kgs/GWU8n3E"
           className="relative inline-flex h-10 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
