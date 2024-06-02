@@ -10,8 +10,10 @@ import reviews from "./assets/data/review.json";
 const App = () => {
   return (
     <>
-      <AuroraBackground className="bg-lime-50">
+      <AuroraBackground>
+        <div className="absolute bg-[url(/src/assets/images/leaf.png)] bg-right top-0 right-0 w-full h-1/3 bg-no-repeat bg-contain"></div>
         <Banner />
+        <div className="absolute bg-[url(/src/assets/images/flower.png)] bg-left bottom-0 w-full h-1/2 bg-no-repeat bg-contain"></div>
       </AuroraBackground>
       <div className="relative w-screen min-h-screen pt-20">
         {therapies.map(({ category, services }, index) => (

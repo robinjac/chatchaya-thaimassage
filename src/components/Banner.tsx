@@ -2,7 +2,7 @@ import React from "react"
 
 const Banner = () => {
   return (
-    <div className="relative flex justify-center items-center flex-col gap-6 w-screen h-screen max-h-[400px]">
+    <div className="relative flex justify-center items-center flex-col gap-6 w-screen h-screen max-h-[420px] pb-32">
     <div className="bg-[url(/src/assets/images/logo.png)] bg-center w-full h-full bg-no-repeat bg-contain"></div>
       <h1 className="text-5xl w-full text-[rgb(161,144,41)] text-center px-12">Chatchaya Thaimassage</h1>
       <div className="flex gap-2">
