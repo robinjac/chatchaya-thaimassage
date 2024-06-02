@@ -1,0 +1,383 @@
+{
+    "items": [
+        {
+            "id": "6130380",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "A big thank you to you, Chatchaya! \nYour massage program, knowledge and skills in what you’re doing, during a session are at the highest level.\nDue to an acute pain issue, I found my way to your shop earlier this year, and I’ve have praised you ever since. \nThe reception and help I have received in follow up sessions have been top notch, if not to say world class.\nThe highest rating possible for you (expert level)! \nWould gladly recommend you to anyone reading. \nAnd I’m forever grateful that you have been able to help in recovering from a painful and complicated issue."
+            },
+            "createdAt": "2024-05-26T18:37:10.000Z",
+            "booking": 85054492,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Ousman F."
+            }
+        },
+        {
+            "id": "6125144",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Fantastiskt Upplevelse! \nKänner mig som Helt Ny Person!"
+            },
+            "createdAt": "2024-05-25T14:25:45.000Z",
+            "booking": 84810419,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Younas K."
+            }
+        },
+        {
+            "id": "6102778",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Bästa massagen i Stockholm "
+            },
+            "createdAt": "2024-05-22T15:30:11.000Z",
+            "booking": 84893069,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Börje S."
+            }
+        },
+        {
+            "id": "6040893",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Chatchaya är otroligt lyhörd och professionell. Rekommenderas starkt för alla som söker bra massage i Sköndal.\n\n//Jonas"
+            },
+            "createdAt": "2024-05-12T20:59:19.000Z",
+            "booking": 83648062,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Jonas A."
+            }
+        },
+        {
+            "id": "6014209",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Ord räcker inte till för att beskriva en känsla. Det måste upplevas. "
+            },
+            "createdAt": "2024-05-07T19:35:46.000Z",
+            "booking": 84043121,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Börje S."
+            }
+        },
+        {
+            "id": "6008534",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Trevligt bemötande och en varm avslappnad massage, toppen för kropp och själ. See you soon again. "
+            },
+            "createdAt": "2024-05-07T06:01:25.000Z",
+            "booking": 83971746,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Lasse L."
+            }
+        },
+        {
+            "id": "5978329",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Så härligt omhändertagande och inkännande massage! I mitt tycke Stockholms bästa massagesalong.\nBåde Chatchaya och Keela är riktigt , riktigt bra ! \n"
+            },
+            "createdAt": "2024-05-02T04:48:25.000Z",
+            "booking": 83675878,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Johan L."
+            }
+        },
+        {
+            "id": "5957604",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "En mycket bra och seriös massage. Hård men också inkännande som fick mig att slappna av. \n Mängder med spänningar släppte. Dessutom var det ett trevligt och roligt möte. Tack! /Magnus "
+            },
+            "createdAt": "2024-04-28T13:32:59.000Z",
+            "booking": 83448673,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Magnus K."
+            }
+        },
+        {
+            "id": "5906314",
+            "images": [],
+            "review": {
+                "score": 4,
+                "text": "Bra duktig och mjukar tills mellan hårt. Åkter komma igen. "
+            },
+            "createdAt": "2024-04-20T06:40:35.000Z",
+            "booking": 83013526,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Suwatthana T."
+            }
+        },
+        {
+            "id": "5899270",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Chatchaya är riktigt bra, lyhörd och professionell!"
+            },
+            "createdAt": "2024-04-19T08:49:43.000Z",
+            "booking": 82745279,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Patrik B."
+            }
+        },
+        {
+            "id": "5890429",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Mycket bra massage. Kunnig, inkännande personal. Tack"
+            },
+            "createdAt": "2024-04-18T05:01:51.000Z",
+            "booking": 82813721,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Svetlana G."
+            }
+        },
+        {
+            "id": "5812081",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Rekomenderar starkt."
+            },
+            "createdAt": "2024-04-05T18:42:48.000Z",
+            "booking": 82059379,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Rickard O."
+            }
+        },
+        {
+            "id": "5708720",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Väldigt kunnig och hittar knutar och problemområden, känner sig som ny efteråt. Rekommenderar starkt."
+            },
+            "createdAt": "2024-03-20T09:05:25.000Z",
+            "booking": 80638747,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Sven J."
+            }
+        },
+        {
+            "id": "5607628",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Chatchaya är väldigt duktig massör, bra bemötande och allmänt trevligt. Jag rekommenderar henne varmt!"
+            },
+            "createdAt": "2024-03-04T20:06:49.000Z",
+            "booking": 78913573,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Alexander A."
+            }
+        },
+        {
+            "id": "5482200",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Härlig massage"
+            },
+            "createdAt": "2024-02-14T19:38:00.000Z",
+            "booking": 79371003,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Lis o."
+            }
+        },
+        {
+            "id": "5444000",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Jättebra och professionell massage, jag kände mig som ny, jag rekommenderar det 👍"
+            },
+            "createdAt": "2024-02-08T19:21:35.000Z",
+            "booking": 79076920,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Elvis G."
+            }
+        },
+        {
+            "id": "5425783",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "Helt klart Stockholms bästa massage. Trevligt bemötande och fräsch nyrenoverad lokal. "
+            },
+            "createdAt": "2024-02-06T11:55:21.000Z",
+            "booking": 78887190,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "R. B."
+            }
+        },
+        {
+            "id": "5412258",
+            "images": [],
+            "review": {
+                "score": 5,
+                "text": "En av de bästa och seriösa massagen man kan få. Rekommenderar Chacthaya för dem som vill ha mellan hårt å mjuk. Har provat många olika ställe men kan stark rekommendera henne. "
+            },
+            "createdAt": "2024-02-03T18:58:00.000Z",
+            "booking": 78433079,
+            "subject": {
+                "type": "employee",
+                "employee": {
+                    "id": 233390,
+                    "name": "Chatchaya"
+                }
+            },
+            "salonName": "Willawan Thaimassage",
+            "author": {
+                "name": "Alex M."
+            }
+        }
+    ],
+    "isMpReviews": true
+}
