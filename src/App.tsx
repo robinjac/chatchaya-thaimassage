@@ -17,7 +17,7 @@ const BulletItem = (props: { bullet: string; paragraph: string }) => (
 
 const App = () => {
   return (
-    <AuroraBackground className="bg-sky-50 h-fit">
+    <AuroraBackground className="h-fit">
       <div className="relative w-screen h-screen flex justify-between flex-col">
         <Banner />
         <div className="w-screen h-fit flex justify-center pb-6">

@@ -12,7 +12,7 @@ interface Therapy {
 
 const TherapyCard = ({ name, duration, price, link }: Therapy) => {
   return (
-    <div className="relative bg-gray-50 border border-gray-200 rounded-lg p-5 shadow-lg space-y-3 w-[280px]">
+    <div className="relative text-[#472c02] bg-gray-50 border border-gray-200 rounded-lg p-5 shadow-lg space-y-3 w-[280px]">
       <div className="flex justify-between items-center">
         <h3 className="text-xl font-semibold text-wrap py-2">{duration}</h3>
         <p>{price}</p>
