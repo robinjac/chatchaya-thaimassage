@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="relative text-[#6d4901] flex justify-center items-center flex-col w-screen h-2/3">
-      <div className="w-full h-1/3 bg-[url(/src/assets/images/bird.png)] bg-center bg-no-repeat bg-contain"></div>
+      <div className="w-full h-1/3 bg-[url(/src/assets/images/bird.png)] w-[320px] bg-left bg-no-repeat bg-contain"></div>
       <div className="w-full h-2/3 bg-[url(/src/assets/images/logo2.png)] bg-center bg-no-repeat bg-contain"></div>
       <h1 className="text-5xl w-full text-center drop-shadow-lg pt-4 pt-8 px-12">
         Chatchaya Thaimassage
