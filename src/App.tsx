@@ -23,7 +23,6 @@ const App = () => {
         <div className="w-screen h-fit flex justify-center pb-6">
           <InfiniteMovingCards items={reviews} direction="right" speed="slow" />
         </div>
-        <div className="absolute bottom-0 h-[40%] bg-[url(/src/assets/images/flower.png)] w-full bg-left bg-no-repeat bg-contain"></div>
       </div>
       <div className="relative w-screen flex flex-col items-center">
         <section className="relative text-[#472c02] max-w-5xl flex gap-20 justify-center w-screen space-y-8 p-6">
@@ -48,8 +47,19 @@ const App = () => {
             className="relative flex gap-20 justify-center w-screen space-y-8 p-6"
           >
             <div className="flex flex-col items-center space-y-10">
-              <h4 className="text-3xl text-center font-bold text-[#472c02]">{category}</h4>
-              <div className="h-[400px] w-full bg-[url(/src/assets/images/hard_massage.png)] bg-no-repeat bg-center bg-contain"></div>
+              <h4 className="text-3xl text-center font-bold text-[#472c02]">
+                {category}
+              </h4>
+              {category === "Oljemassage med Varm Sten" && (
+                <div className="rounded-lg overflow-hidden bg-red-800 h-[350px] w-full bg-[url(/src/assets/images/sten_massage.png)] bg-no-repeat bg-top bg-contain"></div>
+              )}
+              {category === "Hård Thaimassage" && (
+                <div className="rounded-lg overflow-hidden bg-amber-700 h-[350px] w-full bg-[url(/src/assets/images/hard_massage.png)] bg-no-repeat bg-top bg-contain"></div>
+              )}
+              {category === "Avslappnande Oljemassage" && (
+                <div className="rounded-lg overflow-hidden bg-amber-300 h-[350px] w-full bg-[url(/src/assets/images/olje_massage.png)] bg-no-repeat bg-top bg-contain"></div>
+              )}
+
               <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {services.map((therapy) => (
                   <TherapyCard key={therapy.name + index} {...therapy} />

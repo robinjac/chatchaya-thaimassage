@@ -3,9 +3,9 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="relative text-[#6d4901] flex justify-end items-center flex-col w-screen h-2/3">
-      <div className="absolute top-0 h-1/2 bg-[url(/src/assets/images/leaf2.png)] w-full bg-right bg-no-repeat bg-contain"></div>
-      <div className="absolute top-0 h-1/2 bg-[url(/src/assets/images/leaf3.png)] w-full bg-left bg-no-repeat bg-contain"></div>
-      <div className="absolute top-32 sm:top-40 h-1/4 bg-[url(/src/assets/images/bird.png)] w-full max-w-[30rem] bg-left bg-no-repeat bg-contain"></div>
+      <div className="absolute top-0 h-1/3 sm:h-1/2 bg-[url(/src/assets/images/leaf2.png)] w-full bg-right bg-no-repeat bg-contain"></div>
+      <div className="absolute top-0 h-1/3 sm:h-1/2 bg-[url(/src/assets/images/leaf3.png)] w-full bg-left bg-no-repeat bg-contain"></div>
+      <div className="absolute top-20 sm:top-40 h-1/4 bg-[url(/src/assets/images/bird.png)] w-full max-w-[30rem] bg-left bg-no-repeat bg-contain"></div>
       <div className="w-full h-1/3 bg-[url(/src/assets/images/logo2.png)] bg-center bg-no-repeat bg-contain"></div>
       <h1 className="text-5xl w-full text-center drop-shadow-lg pt-4 pt-8 px-12">
         Chat cha ya Thaimassage
