@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "bun run build:css && bun run build:html",
+    "build:html": "bun run render.tsx",
+    "build:css": "bunx tailwindcss -m -i ./styles.css -o ./dist/styles.css"
   },
   "dependencies": {
     "clsx": "^2.1.1",
