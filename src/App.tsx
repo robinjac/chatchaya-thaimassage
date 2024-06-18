@@ -49,13 +49,13 @@ const App = () => {
                 {category}
               </h4>
               {category === "Oljemassage med Varm Sten" && (
-                <div className="h-[350px] shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/sten_massage.png)] bg-no-repeat bg-center bg-contain"></div>
+                <div className="h-[350px] bg-white shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/sten_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
               {category === "Hård Thaimassage" && (
-                <div className="h-[350px] shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/hard_massage.png)] bg-no-repeat bg-center bg-contain"></div>
+                <div className="h-[350px] bg-white shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/hard_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
               {category === "Avslappnande Oljemassage" && (
-                <div className="h-[350px] shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/olje_massage.png)] bg-no-repeat bg-center bg-contain"></div>
+                <div className="h-[350px] bg-white shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/olje_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
 
               <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
