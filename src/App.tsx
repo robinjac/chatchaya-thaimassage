@@ -44,20 +44,20 @@ const App = () => {
         {therapies.map(({ category, services }, index) => (
           <section
             key={category + index}
-            className="relative flex gap-20 justify-center w-screen space-y-8 p-6"
+            className="relative flex gap-20 justify-center w-screen space-y-8 sm:p-6"
           >
             <div className="flex flex-col items-center space-y-10">
               <h4 className="text-3xl text-center font-bold text-[#472c02]">
                 {category}
               </h4>
               {category === "Oljemassage med Varm Sten" && (
-                <div className="rounded-lg overflow-hidden bg-red-800 h-[350px] w-full bg-[url(/src/assets/images/sten_massage.png)] bg-no-repeat bg-top bg-contain"></div>
+                <div className="bg-red-800 h-[350px] shadow-lg border border-[#472c02] w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/sten_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
               {category === "Hård Thaimassage" && (
-                <div className="rounded-lg overflow-hidden bg-amber-700 h-[350px] w-full bg-[url(/src/assets/images/hard_massage.png)] bg-no-repeat bg-top bg-contain"></div>
+                <div className="bg-amber-500 h-[350px] shadow-lg border border-[#472c02] w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/hard_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
               {category === "Avslappnande Oljemassage" && (
-                <div className="rounded-lg overflow-hidden bg-amber-300 h-[350px] w-full bg-[url(/src/assets/images/olje_massage.png)] bg-no-repeat bg-top bg-contain"></div>
+                <div className="bg-amber-300 h-[350px] shadow-lg border border-[#472c02] w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/olje_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
 
               <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
