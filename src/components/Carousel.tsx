@@ -117,8 +117,8 @@ export const InfiniteMovingCards = ({
               <div className="flex gap-2 justify-between">
                 {Array(item.score)
                   .fill(1)
-                  .map(() => (
-                    <Star className="text-amber-400 w-6" />
+                  .map((_, index) => (
+                    <Star key={index}  className="text-amber-400 w-6" />
                   ))}
               </div>
             </div>
