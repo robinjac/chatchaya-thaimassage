@@ -9,13 +9,13 @@ interface Item {
   score: number;
 }
 
-const ReviewText = ({ reviewText }) => {
+const ReviewText = (props: { reviewText: string}) => {
   const threshold = 200;
-  const isLongText = reviewText.length > threshold;
+  const isLongText = props.reviewText.length > threshold;
 
   return (
     <div className="relative z-20 text-sm leading-[1.6] font-normal">
-      {isLongText ? reviewText.slice(0, threshold) + "..." : reviewText}
+      {isLongText ? props.reviewText.slice(0, threshold) + "..." : props.reviewText}
     </div>
   );
 };

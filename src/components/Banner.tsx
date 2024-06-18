@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = () => {
   return (
     <div className="relative text-[#6d4901] flex justify-end items-center flex-col w-screen h-2/3">

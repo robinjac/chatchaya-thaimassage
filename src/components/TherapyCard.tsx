@@ -1,14 +1,11 @@
-// src/components/TherapyCard.jsx
-import React from "react";
-
 const root = "https://www.bokadirekt.se";
 
-interface Therapy {
+type Therapy = {
   name: string;
   duration: string;
   price: string;
   link: string;
-}
+};
 
 const TherapyCard = ({ name, duration, price, link }: Therapy) => {
   return (

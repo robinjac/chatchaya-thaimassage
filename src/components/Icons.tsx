@@ -1,5 +1,3 @@
-import React from "react";
-
 export function Star({ className }: { className: string }) {
   return (
     <div className={"relative " + className}>

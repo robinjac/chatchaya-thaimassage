@@ -1,5 +1,3 @@
-// src/App.jsx
-import React from "react";
 import Banner from "./components/Banner.tsx";
 import TherapyCard from "./components/TherapyCard.tsx";
 import { AuroraBackground } from "./components/Background.tsx";
@@ -34,8 +32,8 @@ const App = () => {
               mental hälsa genom att integrera stretching, tryck och
               andningsövningar.
             </p>
-            {bullets.map((bullet) => (
-              <BulletItem {...bullet} />
+            {bullets.map((bullet, key) => (
+              <BulletItem key={key} {...bullet} />
             ))}
           </div>
         </section>

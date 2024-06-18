@@ -1,12 +1,13 @@
-// src/components/ReviewCard.jsx
-import React from "react";
+type Review = {
+  text: string;
+  author: string;
+};
 
-
-const ReviewCard = ({ review }) => {
+const ReviewCard = ({ text, author }: Review) => {
   return (
     <div className="relative bg-gray-100 border border-gray-200 rounded-lg p-5 shadow-lg w-80">
-      <p className="italic mb-2">"{review.text}"</p>
-      <p className="text-right font-semibold">- {review.author}</p>
+      <p className="italic mb-2">"{text}"</p>
+      <p className="text-right font-semibold">- {author}</p>
     </div>
   );
 };
