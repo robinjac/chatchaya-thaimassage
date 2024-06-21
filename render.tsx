@@ -1,8 +1,9 @@
 import { write, file } from "bun";
-import { renderToStaticMarkup } from "react-dom/server";
+import { renderToString } from "react-dom/server";
 import App from "./src/App";
 
-const html = renderToStaticMarkup(<App />);
+const html = renderToString(<App />);
+
 const index = await file("index.html").text();
 
 const result = index
@@ -13,6 +14,10 @@ const result = index
   .replace(
     '<link rel="stylesheet" href="/styles.css" />',
     '<link rel="stylesheet" href="./styles.css" />'
+  )
+  .replace(
+    '<script type="module" src="/src/main.tsx"></script>',
+    '<script type="module" src="./main.js"></script>'
   );
 
 await write("./dist/index.html", result);
