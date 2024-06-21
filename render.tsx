@@ -1,8 +1,28 @@
 import { write, file } from "bun";
-import { renderToString } from "react-dom/server";
+import { renderToStaticMarkup } from "react-dom/server";
 import App from "./src/App";
 
-const html = renderToString(<App />);
+
+import { readdir, rmdir } from "node:fs/promises";
+
+
+/*
+// read all the files in the current directory, recursively
+const files = await readdir("./src/assets/images", { recursive: true });
+
+for (const fileName of files) {
+  const text = await file("./dist/" + fileName).text();
+
+  await write("./dist/" + fileName, text);
+}
+ */
+
+
+await rmdir("./dist", { recursive: true })
+
+console.log("clering old dist")
+
+const html = renderToStaticMarkup(<App />);
 
 const index = await file("index.html").text();
 
@@ -20,6 +40,6 @@ const result = index
     '<script type="module" src="./production.js"></script>'
   );
 
-await write("./dist/index.html", result);
+await write(`./dist/index.${crypto.randomUUID()}.html`, result);
 
 console.log("done!");
