@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "bun render.tsx",
+    "build": "bun build.tsx",
     "deploy": "bun deploy.ts",
     "preview": "bunx serve ./dist"
   },
