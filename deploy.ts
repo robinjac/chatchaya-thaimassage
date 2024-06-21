@@ -1,13 +1,19 @@
-import { readdir } from "node:fs/promises";
-import { write, file } from "bun";
+import { readdir, copyFile, rm } from "node:fs/promises";
+
+const docFiles = await readdir("./docs", { recursive: true });
+
+for (const file of docFiles) {
+  if (file === ".nojekyll") continue;
+  if (file === "CNAME") continue;
+
+  await rm(file);
+}
 
 // read all the files in the current directory, recursively
 const files = await readdir("./dist", { recursive: true });
 
 for (const fileName of files) {
-  const text = await file("./dist/" + fileName).text();
-
-  await write("./docs/" + fileName, text);
+  await copyFile(fileName, "./docs/" + fileName);
 }
 
 console.log("done!");
