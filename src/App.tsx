@@ -2,6 +2,8 @@ import Banner from "./components/Banner.tsx";
 import TherapyCard from "./components/TherapyCard.tsx";
 import { AuroraBackground } from "./components/Background.tsx";
 import { InfiniteMovingCards } from "./components/Carousel.tsx";
+
+// Data
 import therapies from "./assets/data/therapies.json";
 import reviews from "./assets/data/review.json";
 import bullets from "./assets/data/bullets.json";
@@ -41,7 +43,7 @@ const App = () => {
       <div className="relative w-screen flex flex-col gap-12 py-10 items-center">
         {therapies.map(({ category, services }, index) => (
           <section
-            key={category + index}
+            key={crypto.randomUUID()}
             className="relative flex gap-20 justify-center w-screen space-y-8 sm:p-6"
           >
             <div className="flex flex-col items-center space-y-10">
@@ -60,7 +62,7 @@ const App = () => {
 
               <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {services.map((therapy) => (
-                  <TherapyCard key={therapy.name + index} {...therapy} />
+                  <TherapyCard key={crypto.randomUUID()} {...therapy} />
                 ))}
               </div>
             </div>
