@@ -5,10 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "bun run build:html && bun run build:css && bun run build:js",
-    "build:js": "NODE_ENV=production bun build --minify ./src/production.tsx --outdir ./dist",
-    "build:html": "bun render.tsx",
-    "build:css": "NODE_ENV=production bunx tailwindcss -m -i ./styles.css -o ./dist/styles.css",
+    "build": "bun render.tsx",
     "deploy": "bun deploy.ts",
     "preview": "bunx serve ./dist"
   },
