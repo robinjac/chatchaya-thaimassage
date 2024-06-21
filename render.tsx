@@ -16,8 +16,8 @@ const result = index
     '<link rel="stylesheet" href="./styles.css" />'
   )
   .replace(
-    '<script type="module" src="/src/main.tsx"></script>',
-    '<script type="module" src="./main.js"></script>'
+    '<script type="module" src="/src/development.tsx"></script>',
+    '<script type="module" src="./production.js"></script>'
   );
 
 await write("./dist/index.html", result);

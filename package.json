@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "bun run build:css && bun run build:html",
+    "build": "bun run build:css && bun run build:js && bun run build:html",
+    "build:js": "bun build --minify ./src/production.tsx --outdir ./dist",
     "build:html": "bun run render.tsx",
     "build:css": "bunx tailwindcss -m -i ./styles.css -o ./dist/styles.css"
   },
