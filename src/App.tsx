@@ -17,7 +17,7 @@ const BulletItem = (props: { bullet: string; paragraph: string }) => (
 
 const App = () => {
   return (
-    <AuroraBackground className="h-fit bg-lime-50">
+    <AuroraBackground className="h-fit">
       <div className="relative w-screen h-screen flex justify-between flex-col">
         <Banner />
         <div className="w-screen h-fit flex justify-center pb-6">
@@ -47,17 +47,17 @@ const App = () => {
             className="relative flex gap-20 justify-center w-screen space-y-8 sm:p-6"
           >
             <div className="flex flex-col items-center space-y-10">
-              <h4 className="text-3xl text-center font-bold text-[#472c02]">
+              <h4 className="text-3xl text-center font-bold text-[#472c02] px-5">
                 {category}
               </h4>
               {category === "Oljemassage med Varm Sten" && (
-                <div className="h-[350px] bg-white shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/sten_massage.png)] bg-no-repeat bg-center bg-contain"></div>
+                <div className="h-[350px] bg-lime-50 shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/sten_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
               {category === "Hård Thaimassage" && (
-                <div className="h-[350px] bg-white shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/hard_massage.png)] bg-no-repeat bg-center bg-contain"></div>
+                <div className="h-[350px] bg-lime-50 shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/hard_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
               {category === "Avslappnande Oljemassage" && (
-                <div className="h-[350px] bg-white shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/olje_massage.png)] bg-no-repeat bg-center bg-contain"></div>
+                <div className="h-[350px] bg-lime-50 shadow-lg w-screen sm:w-full sm:overflow-hidden sm:rounded-lg bg-[url(/src/assets/images/olje_massage.png)] bg-no-repeat bg-center bg-contain"></div>
               )}
 
               <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
